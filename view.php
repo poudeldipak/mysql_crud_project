@@ -1,8 +1,3 @@
-<?php
-	include('connection.php');
-  $sqlquery = "select fullname, email from userdetails";
-?> 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,19 +21,31 @@
 							 <th> Fullname </th>
 							 <th> Email </th>
 						 </tr>
-						 <tr>
 						 <?php
-							while ($row = mysql_fetch_array($sqlquery)) {
-								echo "<td> {$row['fullname']} </td>";
-								echo "<td> {$row['email']} </td>";
+							include('database/connection.php');
+							$sqlquery = "SELECT * FROM userdetails";
+							if($result=mysqli_query($conn,$sqlquery)){
+								if (mysqli_num_rows($result) > 0 ) {
+										while($row = $result->fetch_assoc()) {
+											echo "<tr>";
+											echo "<td> {$row['fullname']} </td>";
+											echo "<td> {$row['email']} </td>";
+											echo "</tr>";
+									}
+									} else{
+										echo "<tr>";
+										echo "<td colspan=2> No data found </td>";
+										echo "</tr>";
+									}
+							} else{
+									echo "ERROR: Could not able to execute " . $sqlquery. "<br>" . mysqli_error($conn);
 							}
 						?>
-						</tr>
 					 </table>
 					 <br /><br />
 					 <div class="form-group" id="nextPage">
 						<p> Want to add the details?</p>
-						<a href="index.html" class="btn btn-success btn-block ">Add detail</a>
+						<a href="index.php" class="btn btn-success btn-block ">Add detail</a>
 					</div>
 		 		</div>
 		 	</div>

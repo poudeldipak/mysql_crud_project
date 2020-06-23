@@ -32,7 +32,7 @@
 					 <br />
 					 <div class="form-group" id="nextPage">
 						<p> Want to view all the details?</p>
-						<a href="view.html" class="btn btn-success btn-block ">View details</a>
+						<a href="view.php" class="btn btn-success btn-block ">View details</a>
 					</div>
 		 		</div>
 		 	</div>
