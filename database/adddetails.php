@@ -1,10 +1,10 @@
 <?php
-	include('createtable.php');
+	include('connection.php');
 
 	$email = $_POST['email'];
 	$fullname = $_POST['fullname'];
 
-	$insertsql = "INSERT INTO userdetails(fullname, email) VALUES('$fullname', '$email')";
+	$insertsql = "INSERT INTO $tablename(fullname, email) VALUES('$fullname', '$email')";
 
 	if(mysqli_query($conn, $insertsql)){
 		echo "New record created successfully.";

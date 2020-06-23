@@ -4,6 +4,7 @@ $host = 'localhost';
 $username = 'root';
 $password = '';
 $databasename = "loginsystem";
+$tablename = "userdetails";
 
 $conn = new mysqli($host, $username, $password, $databasename);
 

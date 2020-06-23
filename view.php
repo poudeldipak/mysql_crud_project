@@ -22,8 +22,8 @@
 							 <th> Email </th>
 						 </tr>
 						 <?php
-							include('database/connection.php');
-							$sqlquery = "SELECT * FROM userdetails";
+							include('database/createtable.php');
+							$sqlquery = "SELECT * FROM $tablename";
 							if($result=mysqli_query($conn,$sqlquery)){
 								if (mysqli_num_rows($result) > 0 ) {
 										while($row = $result->fetch_assoc()) {
