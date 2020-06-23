@@ -2,21 +2,21 @@
 <html>
 <head>
 	<title> Add details </title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<style type="text/css">
 	</style>
 </head>
-<body id="signupBodyBg">
+<body id="userDetailsBodyBg">
 	<div id="wrapper">
 		<div class="paddingTop">
 		 	<div class="container" id="formContainer">
 		 		<div id="loginContent">
 					 <h1 id="titleHeading"> <span> Add detail</span>  </h1>
-		 			<form action="includes/adddetails.php" method="post"> <br>
+		 			<form action="database/adddetails.php" method="post"> <br>
 		 				<div class="form-group">
              <div class="form-group">
 		 				  <label for="fullname">Fullname</label>

@@ -8,44 +8,14 @@
 	margin:auto;
 }
 
-#dashboardBodyBg{
-	background: url('../img/dashboardBodyBg.jpg');
+#userDetailsBodyBg{
+	background: url('../img/bgImg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 638px;
 }
 
-#forgetPasswordBodyBg{
-	background: url('../img/forgetPasswordBodyBg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 638px;
-}
-
-#loginBodyBg{
-	background: url('../img/loginBodyBg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 638px;
-}
-#resetPasswordBodyBg{
-	background: url('../img/resetPasswordBodyBg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 638px;
-}
-
-#signupBodyBg{
-	background: url('../img/signupBodyBg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 638px;
-}
 #titleHeading{
 	font-size: 25px;
 	border-bottom: 2px solid  tomato;
