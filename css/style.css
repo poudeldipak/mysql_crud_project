@@ -1,0 +1,118 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper{
+	max-width: 1400px;
+	margin:auto;
+}
+
+#dashboardBodyBg{
+	background: url('../img/dashboardBodyBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 638px;
+}
+
+#forgetPasswordBodyBg{
+	background: url('../img/forgetPasswordBodyBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 638px;
+}
+
+#loginBodyBg{
+	background: url('../img/loginBodyBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 638px;
+}
+#resetPasswordBodyBg{
+	background: url('../img/resetPasswordBodyBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 638px;
+}
+
+#signupBodyBg{
+	background: url('../img/signupBodyBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 638px;
+}
+#titleHeading{
+	font-size: 25px;
+	border-bottom: 2px solid  tomato;
+}
+#titleHeading span{
+	background-color: tomato;
+	padding:5px 10px 0px 10px;
+	color:white;
+}
+.paddingTop{
+	padding-top: 100px;
+}
+
+#formContainer{
+	opacity:0.8!important;
+	width:40%;
+	margin:auto;
+	padding: 30px;
+	padding-top: 10px;
+	background-color: #eeeeee;
+}
+
+#tableContainer{
+	opacity:0.8!important;
+	width:50%;
+	margin:auto;
+	padding: 30px;
+	padding-top: 10px;
+	background-color: #eeeeee;
+}
+
+#logoutButton{
+	color:white;
+	border:0px;
+	margin-top:5px;
+	padding:10px 20px;
+}
+
+#logoutButton:hover{
+	color:black;
+	background-color: gray;
+	transition: 0.8s;
+}
+
+table{
+	width: 100%;
+}
+
+table th, table td{
+	padding: 10px 5px;
+	border: 1px solid gray;
+}
+
+#nextPage{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
