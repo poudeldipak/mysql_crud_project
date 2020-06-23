@@ -22,7 +22,7 @@
 							 <th> Email </th>
 						 </tr>
 						 <?php
-							include('database/createtable.php');
+							include('database/connection.php');
 							$sqlquery = "SELECT * FROM $tablename";
 							if($result=mysqli_query($conn,$sqlquery)){
 								if (mysqli_num_rows($result) > 0 ) {

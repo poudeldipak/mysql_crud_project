@@ -1,5 +1,5 @@
 <?php
-	include('connection.php');
+	include('createtable.php');
 
 	$email = $_POST['email'];
 	$fullname = $_POST['fullname'];

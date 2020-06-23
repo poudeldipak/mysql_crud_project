@@ -1,6 +1,3 @@
-<?php 
-	include('database/createtable.php');
-?>
 <!DOCTYPE html>
 <html>
 <head>

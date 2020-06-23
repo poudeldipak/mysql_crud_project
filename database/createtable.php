@@ -10,7 +10,7 @@
 	if($conn->query($sql)==true){
 		echo "Table created successfully. <br/>";
 	}else{
-		echo "error creating table <br/>". $conn->error;
+		echo "Error creating table <br/>". $conn->error;
 	}
 
 ?>
